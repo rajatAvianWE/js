@@ -1,0 +1,40 @@
+body {
+    background-image: url('../images/bkg.png'), 
+    linear-gradient(to right, #032080, #0085c7, #032080);
+    margin: 0;
+}
+figure{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.pageHeading{
+}
+.w-25{
+    width: 25%;
+}
+.upperPart{
+    background-color: #439aeb;
+    padding: 10px 20px;
+    text-align: center;
+}
+.lowerPart{
+    background-color: #001964;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+}
+.weather-entry.singleWeather {
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.weatherType{
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
+.weatherDate{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5em;
+}
